@@ -1,40 +1,15 @@
-
-/* .seller-container{
-    width: 100%;
-    height: 20rem;
-    position: relative;
-} */
-.seller-container{
-    width: 20rem;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-/* .seller-img img{
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
-} */
+
 .seller-img img{
     width: 100%;
     height: 15rem;
     object-fit: cover;
 }
 
-/* .seller-text{
-    background-color: blue;
-    position: absolute;
-    height: 100%;
-    width: 35%;
-    top: 0;
-    right: 0;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-} */
 .seller-text{
     background-color: blue;
     text-align: center;

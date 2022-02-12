@@ -1,5 +1,6 @@
 import React from 'react'
 import CardSellers from './CardSellers'
+import './OurProducts.css'
 import sellerImg1 from '../../../assets/images/galeria_09.jpg' 
 import sellerImg2 from '../../../assets/images/categoria2.jpg' 
 import sellerImg3 from '../../../assets/images/producto3.jpg' 
@@ -14,13 +15,17 @@ const itemsSeller = {
 
 const OurProducts = () => {
   return (
-    <div>
-        <CardSellers itemsSeller={ itemsSeller } img={ sellerImg1 } />
-        {/* <CardSellers itemsSeller={ itemsSeller } img={ sellerImg2 } />
-        <CardSellers itemsSeller={ itemsSeller } img={ sellerImg3 } />
-        <CardSellers itemsSeller={ itemsSeller } img={ sellerImg4 } />
-        <CardSellers itemsSeller={ itemsSeller } img={ sellerImg5 } /> */}
-    </div>
+    <>
+        <h2>Nuestros Productos</h2>
+      <div className='card-seller-container'>
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg1 } itemStyle='div1' />
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg2 } itemStyle='div2'/>
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg3 } itemStyle='div3'/>
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg4 } itemStyle='div4'/>
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg5 } itemStyle='div5'/>
+          <CardSellers itemsSeller={ itemsSeller } img={ sellerImg5 } itemStyle='div6'/>
+      </div>
+    </>
   )
 }
 
