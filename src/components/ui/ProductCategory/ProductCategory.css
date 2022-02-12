@@ -1,0 +1,14 @@
+.products-container{
+    padding: 1rem 0;
+}
+
+.products-container h2{
+    padding: .5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.products-card-container{
+    display: flex;
+    justify-content: space-between;
+}
